@@ -1,4 +1,4 @@
-#poli imagen node
+#poli imagen mysql
 FROM mysql
 
 #se ejecuta el bash
