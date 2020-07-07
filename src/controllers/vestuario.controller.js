@@ -7,6 +7,7 @@ controller.get = (req, res) => {
             res.json(rows)
         }
         else {
+            print("Elementos no encontrados")
             console.log(err)
         }
     });
