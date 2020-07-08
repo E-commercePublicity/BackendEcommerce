@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended:false}))
 //modulos
 app.use(require('./src/routes/tecnologia.routes'))
 app.use(require('./src/routes/vestuario.routes'))
-//Se inicia el servidor 
+//Se inicia el servidor start
 app.listen(app.get('port'),()=>{
     console.log("port listen ",app.get('port'))
 })
