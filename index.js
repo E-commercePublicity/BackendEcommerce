@@ -7,6 +7,7 @@ app.set('port',process.env.PORT||3000);
 app.use(express.json());
 app.use(express.urlencoded({extended:false}))
 //modulos
+
 app.use(require('./src/routes/hogar.routes'))
 app.use(require('./src/routes/tecnologia.routes'))
 app.use(require('./src/routes/vestuario.routes'))
