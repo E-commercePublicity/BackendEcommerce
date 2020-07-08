@@ -12,7 +12,7 @@ app.use(require('./src/routes/hogar.routes'))
 app.use(require('./src/routes/tecnologia.routes'))
 app.use(require('./src/routes/vestuario.routes'))
 app.use(require('./src/routes/hogar.routes'))
-//Se inicia el servidor
+//Se inicia el servidor start
 app.listen(app.get('port'),()=>{
     console.log("port listen ",app.get('port'))
 })
