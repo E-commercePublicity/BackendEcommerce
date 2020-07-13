@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-- "12.17.0"
+- "v12.17.0"
 install:
 - npm install
- script:
-- npm test
-- node index.js
+ env:
+- NODE_ENV=test
