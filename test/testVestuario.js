@@ -4,7 +4,7 @@ const expect = require('chai').expect;
 
 
 chai.use(chaiHttp);
-const url= 'http://localhost:3000';
+const url= 'https://ecommercepublicity.azurewebsites.net';
 
 
 describe('Consultar Vestuarios: ',()=>{
